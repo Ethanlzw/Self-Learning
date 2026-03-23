@@ -151,4 +151,14 @@ $\qquad \cdot u_i$：单元节点位移向量
 $\qquad \cdot F^e$：单元刚度矩阵  
 $\qquad \cdot 𝐹^𝑒$：单元等效节点载荷
 
+#### 3.1Linear Rod Element, 2节点线性杆单元
+
+1. 位移插值的意义  
+$\quad$ 2节点线性杆单元内部位移：
+
+$$
+u(x) = (1−\frac{x}{L}) u_1 ​+ \frac{x}{L} u_2​
+$$
+
+
 
