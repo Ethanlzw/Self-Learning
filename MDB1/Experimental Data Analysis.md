@@ -64,7 +64,7 @@ For the approximately 29.36 N loaded data, the force error caused by span temper
 29.36 N * 0.0015 % = 0.00044 N
 ```
 
-Therefore, in today's dataset, the temperature variation is too small to explain the approximately `0.1045 N` change observed in `2514`, or the approximately `0.0286 N` change observed in the loaded segment of `2995_0`. The dominant observed changes are more likely caused by:
+Therefore, the temperature variation is too small to explain the approximately `0.1045 N` change observed in `2514`, or the approximately `0.0286 N` change observed in the loaded segment of `2995_0`. The dominant observed changes are more likely caused by:
 
 - load cell / fixture mechanical creep;
 - post-loading mechanical settling;
@@ -72,7 +72,7 @@ Therefore, in today's dataset, the temperature variation is too small to explain
 - zero-return behavior after unloading;
 - low-frequency electrical or data acquisition drift.
 
-## 3. How to Use the No-Load Zero Drift Data
+## 3. No-Load Zero Drift Data
 
 The `noload` data should be used for zero-drift and deadband estimation.
 
@@ -123,7 +123,7 @@ Reference basis:
 - TAL220B datasheet: zero output has temperature-related and zero-offset errors.
 - NIST Handbook 44: automatic zero tracking must be limited and must not be applied under real load.
 
-## 4. How to Use the `2514` Constant-Load Data
+## 4. The `2514` Constant-Load Data
 
 The `2514` dataset can be used as preliminary constant-load stability or creep data.
 
@@ -165,9 +165,7 @@ Reference basis:
 - OIML R 60: creep should be tested under constant load and stable conditions.
 - JCGM 100 / GUM: this variation should be included in uncertainty or limitation statements.
 
-## 5. How to Use the `2995_0` Load-Unload Data
-
-`2995_0` is the most valuable dataset currently available because it includes both an approximately 1-hour loaded segment and an approximately 55-minute unloaded recovery segment.
+## 5. The `2995_0` Load-Unload Data
 
 ### 5.1 Loaded Segment
 
@@ -223,8 +221,6 @@ Reference basis:
 - JCGM 100 / GUM: zero-return error should be included in the system error budget.
 
 ## 6. Is It Acceptable to Only Add a Multi-Point Static Calibration?
-
-Yes, but the limitations must be stated clearly.
 
 If only one additional experiment is performed, the current data coverage becomes:
 
