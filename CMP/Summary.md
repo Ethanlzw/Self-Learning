@@ -1156,7 +1156,7 @@ E,\nu,\alpha,k,t,T_{ref}
 
 ---
 
-## 10. Pei COMSOL thermomechanical 3D case
+## 10. COMSOL thermomechanical 3D case
 
 ### 10.1 建模步骤
 
