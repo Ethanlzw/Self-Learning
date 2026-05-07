@@ -719,7 +719,7 @@ f_\Gamma^e = \int_\Gamma N^T S\,t\,d\Gamma
 
 ## 7. 关键 MATLAB 脚本地图
 
-### 7.1 Pei mechanical + thermal 框架
+### 7.1 Mechanical + thermal 框架
 
 目录：
 
@@ -741,7 +741,7 @@ Frame/Mech_Thermal_Frame
 | `solveSystem.m` | 约束自由度求解 | `Kaa ua = Fa - Kap up` |
 | `post_*` | 后处理 | 应变、应力、热流、von Mises |
 
-### 7.2 Pei thermomechanical 框架
+### 7.2 Thermomechanical 框架
 
 目录：
 
