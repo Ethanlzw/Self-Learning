@@ -14,7 +14,7 @@
 
 ---
 
-# Part A. FEM 复习（Pei）
+# Part A. FEM 复习
 
 ## A1. FEM 解题主线
 
