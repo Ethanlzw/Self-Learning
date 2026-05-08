@@ -1,10 +1,10 @@
-# CMP Exam Review: Separated FEM and FDM Notes (English)
+# CMP Review: FEM and FDM Notes (English)
 
 ---
 
 ## Overview
 
-The exam scope can be separated into three practical blocks:
+The scope can be separated into three practical blocks:
 
 | Part | Source | Exam focus |
 |---|---|---|
