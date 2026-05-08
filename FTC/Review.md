@@ -1,4 +1,4 @@
-# Fault Tolerant Control 考试 6 主题完全版复习笔记
+# Fault Tolerant Control 完全版复习笔记
 
 ## 严格按 Curriculum 六主题划分的核对表
 
